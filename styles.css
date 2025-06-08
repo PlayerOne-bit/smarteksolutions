@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    
+
+    #header-text{
+        a{
+            background-color:ghostwhite;
+            border-radius: 10px;
+            padding: 0.5em 1em;
+            transition: transform 0.5s ease;
+        }
+        a:hover{
+            transform: scale(1.1);
+            
+            background-color: lightgray;
+        }
+        display:flex;
+
+        justify-content:space-around;
+
+    }
+    .title{
+        h1{
+            color: white;
+            font-size:5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+        }
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    margin: 5% ;
+}
+
+section{
+    margin: 5%;
+}
+
+body{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html{
+    scroll-behavior: smooth;
+}
