@@ -4,10 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smartek IT Solutions</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="images/smarteklogo.png" type="image/png">
 </head>
 <body>
   <header>
+    <div class="header-title">
+      <img id="logo-pic" src="images/smarteklogo.png"  alt="Smartek IT Solutions Logo" id="logo-header">
+      <h3>Smartek IT Solutions</h3>
+    </div>
     <div id="header-text">
       <a>Home</a>
       <a>About us</a>
@@ -15,26 +20,42 @@
       <a>Support</a>
     </div>
   </header>
-  
+
   <div class="main-title">
     <div class="title">
-      <div class="title-text"><h1>SMARTEK IT</h1> <h1><b>SOLUTIONS</b></h1><div class="quote">"Innovate Integrate Elavate"</div></div>
-      <div style="width: 20px"></div>
-      <img src="images/logo.png" alt="Smartek IT Solutions Logo" id="logo">
+
+      <div class="structure">
+        <h1>SMARTEK IT</h1> 
+        <h1><b>SOLUTIONS</b></h1>
+        <div class="quote">"Innovate Integrate Elavate"</div>
+        <div class="login">
+          <h3>SIGN IN</h3>
+          <div >
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+          </div>
+          <br>
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+          </div>
+          <br>
+          <button id="logbutton" type="submit">SIGN IN</button>
+          <br>
+        </div>
+      </div>
+      
+
+      <img id="cover" src="images/logo.png" alt="Smartek IT Solutions Logo" id="logo">
     </div>
   </div>  
-  
-
   <section>
     <p>DIRECT INTERNET ACCESS PROVIDER</p>
     <p>Leased Line ISP Powered by: DITO Telco</p>
     <p>PC and Network Accessories Supplier</p>
   </section>
 
-  <section>
-    <p>nom nom</p>
-  </section>
 
-  <style src="script.js"></style>
+  <style src="scripts/script.js"></style>
 </body>
 </html>
